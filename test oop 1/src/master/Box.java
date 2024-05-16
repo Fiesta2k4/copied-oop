@@ -11,8 +11,8 @@ public class Box implements ActionListener{
 				pos;
 	boolean[] isStone=new boolean[70];
 	private float mul=GUI.multiple/20;;
-	final int	NUM_LABEL_SIZE=14,
-				BUTTON_WIDTH=20,
+	final int	NUM_LABEL_SIZE=20,
+				BUTTON_WIDTH=45,
 				BUTTON_HEIGHT=37;
 	private static Font	fontArrow;
 	private Process process;

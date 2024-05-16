@@ -7,7 +7,7 @@ public class Process {
 	MainGame mainGame;
 	Box[] box=new Box[12];
 	ScoreBox[] scBox=new ScoreBox[2];
-	Stone[] stone=new Stone[70];
+	Stone[] stone=new Stone[60];
 	
 	public Process(MainGame m){
 		mainGame=m;
@@ -25,7 +25,7 @@ public class Process {
 					count++;
 				}
 			else 
-				for(int j=0;j<10;j++) {
+				for(int j=0;j<5;j++) {
 					stone[count]=new Stone(mainGame,i);
 					count++;
 				}
@@ -42,7 +42,7 @@ public class Process {
 					count++;
 				}
 			else
-				for(int j=0;j<10;j++) {
+				for(int j=0;j<5;j++) {
 					stone[count].quickMove(i);
 					count++;
 				}
@@ -61,7 +61,7 @@ public class Process {
 		for(int i=0;i<12;i++) box[i].resize();
 		scBox[0].resize();
 		scBox[1].resize();
-		for(int i=0;i<70;i++) stone[i].resize();
+		for(int i=0;i<60;i++) stone[i].resize();
 	}
 	public void removeAllArrow() {
 		for(int i=0;i<12;i++) box[i].removeArrow();

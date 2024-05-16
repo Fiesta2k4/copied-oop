@@ -7,7 +7,7 @@ public class MainGame extends JPanel {
 	int 
 		currentTeam=0,
 		numberInBox=5,
-		numberInScoreBox=10,
+		numberInScoreBox=5,
 		multiple=GUI.multiple;
 	final int 	
 		xUnit=GUI.xUnit,

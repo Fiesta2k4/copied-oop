@@ -61,7 +61,7 @@ public class Menu extends JFrame implements ActionListener{
 		String button = e.getActionCommand();
 		if (button.equals("Start")) {
 			
-			process.reDraw();
+			
 		
 		}
 		else if (button.equals("Intruction")) {
